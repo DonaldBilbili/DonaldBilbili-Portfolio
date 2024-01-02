@@ -1,0 +1,235 @@
+.cv {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    font-size: 11px;
+  }
+
+  .cv__header {
+    display: contents;
+  }
+  
+  /* Personal Details */
+  .personal-details {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    grid-column: 1 / span 2;
+  }
+
+  .photo {
+    width: 100px;
+    border-radius: 5%;
+    border: 2px solid #fff;
+    margin-right: 20px;
+  }
+  
+  .title__profession {
+    text-align: center;
+    font-size: 12px;
+    margin-left: 25px;
+    text-decoration: underline;
+    color: #fff;
+  }
+
+  /* Personal Info */
+  .personal__info {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Personal Name */
+  .personal__name {
+    font-size: 24px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+  }
+
+/* Personal Email,Phone, Linkedin */
+.personal__email,
+.personal__phone,
+.personal__linkedin {
+  margin-top: 15px;
+  margin-left: 110px;
+}
+
+/* Links */
+.personal__linkedin a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.personal__linkedin a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+  
+  /* Section headings */
+  h2 {
+    color: #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    
+  }
+  
+  /* Work Experience and Education items */
+  .experience-item,
+  .education-item,
+  .certificate-item,
+  .internship {
+    margin-bottom: 20px;
+  }
+  
+  /* Right column */
+  .right-column {
+    grid-column: 2;
+  }
+  
+  /* Links */
+  a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hobbies list */
+  .hobbies ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hobbies li {
+    margin-bottom: 5px;
+  }
+  
+  /* Responsive styling */
+  /*For large devices*/
+@media screen and (max-width: 992px) {
+  .photo {
+    width: 80px;
+    margin-right: 10px;
+  }
+
+  .title__profession {
+    margin-left: 5px;
+  }
+
+  .personal__info {
+    display: flex;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+  }
+
+  .personal__name {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .personal__contact {
+    margin-left: 0;
+  }
+
+  .personal__email,
+  .personal__phone,
+  .personal__linkedin {
+    margin-top: 5px;
+    margin-left: 0;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .photo {
+    width: 80px;
+    margin-right: 10px;
+  }
+
+  .title__profession {
+    margin-left: 5px;
+  }
+
+  .personal__info {
+    display: flex;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+  }
+
+  .personal__name {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .personal__contact {
+    margin-left: 0;
+  }
+
+  .personal__email,
+  .personal__phone,
+  .personal__linkedin {
+    margin-top: 5px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .photo {
+    width: 80px;
+    margin-left: 40%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .title__profession {
+    margin-left: 5px;
+  }
+
+  .personal__info {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+  }
+
+  .personal__name {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .personal__contact {
+    margin-left: 0;
+  }
+
+  .personal__email,
+  .personal__phone,
+  .personal__linkedin {
+    margin-top: 5px;
+    margin-left: 0;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .personal__email,
+  .personal__phone,
+  .personal__linkedin {
+    display: flex;
+    margin-right: 0;
+  }
+
+  .photo {
+    margin-left: 25%;
+  }
+}

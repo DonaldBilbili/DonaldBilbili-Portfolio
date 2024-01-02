@@ -1,0 +1,119 @@
+.skills__content {
+    text-align: center;
+    padding: 2rem;
+    
+  }
+  
+  .skills__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #e44d26;
+  }
+  
+  .skills__box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .skills__group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .skills__data {
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .skills__data:hover {
+    background-color: #000000;
+
+    .skills__name {
+      color: #fff;
+    }
+
+    .skills__level {
+      color: #298ae6;
+    }
+  }
+  
+  
+  i {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      
+  }
+  
+  .skills__name {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #be1a1a;
+  }
+
+  .skills__name:hover {
+    color: #fff;
+  }
+
+  .skills__level {
+    font-size: 1rem;
+    color: #777;
+  }
+
+  .bxl-html5 {
+    color: #e44d26;
+  }
+
+  .bxl-css3 {
+    color: #298ae6;
+  }
+
+  .bxl-javascript {
+    color: #f1e05a;
+  }
+
+  .bxl-react {
+    color: #61dafb;
+  }
+
+  .bxl-bootstrap {
+    color: #563d7c;
+  }
+
+  .bxl-git {
+    color: grey;
+  }
+
+  .bxl-wordpress {
+    color:#217598;
+  }
+
+  /*=====Breakpoints=====*/
+/*For large devices*/
+@media screen and (max-width: 992px) {
+    
+}
+
+/*For medium devices*/
+@media screen and (max-width: 768px) {
+    .skills__group {
+        justify-content: center;  
+     }
+}
+
+@media screen and (max-width: 576px) {
+    .skills__group {
+       justify-content: center;  
+    }
+    
+}
+
+/*For small devices*/
+@media screen and (max-width: 350px) {
+    
+}

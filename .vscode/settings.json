@@ -1,0 +1,5 @@
+{
+    "emmet.showAbbreviationSuggestions": true,
+    "emmet.triggerExpansionOnTab": true,
+    "git.alwaysShowStagedChangesResourceGroup": false
+}
